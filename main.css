@@ -1,0 +1,91 @@
+body {
+  font-family: 'Chivo', sans-serif;
+}
+
+a {
+  font-size: 16pt;
+  padding-right: 8px;
+  padding-left: 18px;
+  color: black;
+}
+
+.divider {
+  font-size: 16pt;
+}
+
+li {
+  list-style-type: none;
+  font-size: 14pt;
+}
+
+p {
+  font-size: 14pt;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+/* .about {
+  text-align: center;
+  padding-left: 24px;
+  padding-right: 24px;
+} */
+
+#about {
+  padding-top: 36px;
+}
+
+.row {
+  text-align: center;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-image: url("dusk.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding: 48px;
+}
+
+#nameheader {
+  /* padding-left: 16px;
+  padding-top: 16px; */
+  padding: 16px;
+}
+
+nav {
+  padding: 16px;
+}
+
+.aboutintro {
+  text-align: center;
+}
+
+#work, #contact {
+  text-align: center;
+}
+
+.contact {
+  font-size: 14pt;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  text-decoration: underline;
+}
+
+footer {
+  margin-bottom: 15px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+#work, #contact {
+  padding-top: 36px;
+}
