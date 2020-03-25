@@ -1,3 +1,4 @@
+/* Desktop Design */
 body {
   font-family: 'Chivo', sans-serif;
 }
@@ -26,12 +27,6 @@ h4 {
   font-weight: bold;
 }
 
-/* .about {
-  text-align: center;
-  padding-left: 24px;
-  padding-right: 24px;
-} */
-
 #about {
   padding-top: 36px;
 }
@@ -44,13 +39,18 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* justify-content: flex-start; */
 
-  background-image: url("dusk.jpeg");
+  background-image: url("bg-succulent.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* width: 100%;
+  height: 100%; */
 
-  padding: 48px;
+  /* padding: 48px; */
+  padding: 66px;
+  /* color: white; */
 }
 
 #nameheader {
@@ -60,7 +60,8 @@ h4 {
 }
 
 nav {
-  padding: 16px;
+  padding: 20px;
+  /* margin-left: 300px; */
 }
 
 .aboutintro {
@@ -69,6 +70,7 @@ nav {
 
 #work, #contact {
   text-align: center;
+  padding-top: 36px;
 }
 
 .contact {
@@ -86,6 +88,38 @@ footer {
   padding-top: 36px;
 }
 
-#work, #contact {
-  padding-top: 36px;
+#junior {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+
+
+/* Mobile Design */
+@media (max-width: 414px) {
+  #head {
+    display: block;
+    object-fit: cover;
+    width: 414px;
+  }
+
+  #nameheader {
+    padding: 0px;
+  }
+
+  .col-sm-4 {
+    padding-bottom: 18px;
+  }
+
+  /* body {
+    text-align: center;
+  } */
+}
+
+/* Tablet Design */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* .images {
+    max-width:45%;
+    height:auto;
+  } */
 }
