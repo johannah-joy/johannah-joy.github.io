@@ -33,6 +33,8 @@ h4 {
 
 .row {
   text-align: center;
+  /* margin-right: 0px;
+  margin-left: 0px; */
 }
 
 #head {
@@ -45,12 +47,22 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* width: 100%;
-  height: 100%; */
+  /* width: 99vw; */
+  /* height: 100%; */
 
   /* padding: 48px; */
-  padding: 66px;
-  /* color: white; */
+  padding: 65px;
+}
+
+#work-nav {
+  color: white;
+}
+
+#contact-nav {
+  /* color: #353d4d; */
+  /* color: #f28d2e; */
+  /* color: #fca9a9; */
+  /* color: #a89797; */
 }
 
 #nameheader {
@@ -68,8 +80,19 @@ nav {
   text-align: center;
 }
 
-#work, #contact {
+#work {
   text-align: center;
+  padding-top: 36px;
+}
+
+#contact-head {
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding-top: 36px;
 }
 
@@ -85,10 +108,10 @@ nav {
 footer {
   margin-bottom: 15px;
   text-align: center;
-  padding-top: 36px;
+  padding-top: 64px;
 }
 
-#junior {
+#junior, #projects {
   padding-top: 18px;
   padding-bottom: 18px;
 }
@@ -111,6 +134,8 @@ footer {
     padding-bottom: 18px;
   }
 
+  /* footer */
+
   /* body {
     text-align: center;
   } */
@@ -118,8 +143,5 @@ footer {
 
 /* Tablet Design */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* .images {
-    max-width:45%;
-    height:auto;
-  } */
+  /* footer */
 }

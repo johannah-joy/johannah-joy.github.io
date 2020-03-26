@@ -12,56 +12,95 @@
   <div class="flex-container" id="head">
     <h1 id="nameheader"><strong>JoHannah Joy</strong></h1>
     <nav>
-      <a class="navbar-brand" href="/html/">About</a><span class="divider">|</span>
-      <a class="navbar-brand" href="/css/">Work</a><span class="divider">|</span>
-      <a class="navbar-brand" href="/js/">Contact</a>
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">Menu</a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler toggler-example purple darken-3" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+      aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent41">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <!-- Links -->
+
+      </div>
+      <!-- Collapsible content -->
+
+      <!-- <a class="navbar-brand" href="#about-nav">About</a><span class="divider">|</span>
+
+
+      <a class="navbar-brand" id="work-nav" href="/css/">Work</a><span class="divider">|</span>
+
+
+      <a class="navbar-brand" id="contact-nav" href="/js/">Contact</a> -->
+
     </nav>
   </div>
   
   <div id="about">
-    <h2 class="aboutintro"><strong>About</strong></h2>
+    <h2 class="aboutintro" id="about-nav"><strong>About</strong></h2>
     <p class="aboutintro" id="junior">Junior Developer dedicated to learning and working on code projects full-time since October 2019</p>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <h3><em>Knowledge</em></h3>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Bootstrap</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3><em>Knowledge</em></h3>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Bootstrap</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+        </div>
+    
+        <div class="col-sm-4">
+          <h3><em>Currently Learning</em></h3>
+          <li>SQL</li>
+          <li>PHP</li>
+          <li>Swift</li>
+        </div>
   
-      <div class="col-sm-4">
-        <h3><em>Currently Learning</em></h3>
-        <li>SQL</li>
-        <li>PHP</li>
-        <li>Swift</li>
-      </div>
-
-      <div class="col-sm-4">
-        <h3><em>Career Interests</em></h3>
-        <li>Front-End Development</li>
-        <li>Mobile Development</li>
-        <li>WordPress Development</li>
-        <li>SEO</li>
-        <li>Analytics</li>
+        <div class="col-sm-4">
+          <h3><em>Career Interests</em></h3>
+          <li>Front-End Development</li>
+          <li>Mobile Development</li>
+          <li>WordPress Development</li>
+          <li>SEO</li>
+          <li>Analytics</li>
+        </div>
       </div>
     </div>
-    
   </div>
+  <!-- end of id=about -->
 
   <div id="work">
     <h2>Projects</h2>
-    <p><em>To Be Announced</em></p>
+    <p id="projects"><em>Content To Be Posted</em></p>
   </div>
 
-  <div id="contact">
-    <h2>Contact</h2>
-    <a class="contact" href="mailto:johannah.joy@yahoo.com">Email</a>
-    <a class="contact" href="https://www.linkedin.com/in/johannah-joy/">LinkedIn</a>
-    <a class="contact" href="https://github.com/johannah-joy">GitHub</a>
-  </div>
+  <h2 id="contact-head">Contact</h2>
+    <div class="flex-container" id="contact">
+      <button><a class="contact" href="mailto:johannah.joy@yahoo.com">Email</a></button>
+      <button><a class="contact" href="https://www.linkedin.com/in/johannah-joy/">LinkedIn</a></button>
+      <button><a class="contact" href="https://github.com/johannah-joy">GitHub</a></button>
+    </div>
 
   <footer>Copyright © JoHannah Joy 2020</footer>
 </body>
